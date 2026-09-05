@@ -99,7 +99,7 @@ public class SinglyLinkedList<E> {
 
         Node<E> current = head;
 
-        while (current != tail) {
+        while (current.getNext() != tail) {
             current = current.getNext();
         }
 
